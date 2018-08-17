@@ -1,9 +1,12 @@
 package main
 
 import "fmt"
-import "demo"
+import (
+	"demo/net"
+)
 
 func main() {
 	fmt.Print("This is main\n")
-	demo.Httpserver()
+	//demo.Httpserver()
+	demoNet.Httpserver()
 }
