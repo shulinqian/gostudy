@@ -1,4 +1,4 @@
-package main
+package maingit
 
 import (
 	"net/http"
